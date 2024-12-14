@@ -3,29 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloxi Checker</title>
+    <title>Blocksi Detector</title>
     <style>
-        /* Style for the checkbox and notification */
-        #notification {
-            color: green;
-            font-size: 20px;
-            font-weight: bold;
-            display: none;
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f9;
         }
-    </style>
-</head>
-<body>
-    <h1>Bloxi Checker</h1>
-    <!-- Checkbox to enable/disable checker -->
-    <label for="checker">Enable Bloxi Checker:</label>
-    <input type="checkbox" id="checker">
-    
-    <!-- Image representing the "Bloxi" content -->
-    <img id="bloxiImage" src="bloxi-image.jpg" alt="Bloxi Image" width="200">
-    
-    <!-- Notification that shows up when condition is met -->
-    <div id="notification">Bloxi is On!</div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+        .detector-box {
+            display: inline-block;
+            width: 300px;
+            padding: 20px;
+            border: 2px solid #007bff;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            margin-bottom: 20px;
+            color: #333333;
+        }
+        .status {
+            margin: 20px 0;
+            font-size: 18px;
+      
